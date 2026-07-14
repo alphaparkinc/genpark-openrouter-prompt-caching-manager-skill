@@ -1,0 +1,26 @@
+{
+  "name": "genpark-openrouter-prompt-caching-manager-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Manage prompt caching hits to lower LLM cost.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "openrouter",
+    "cache"
+  ],
+  "inputs": {
+    "prompt_text": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "is_cached": {
+      "type": "boolean"
+    },
+    "discounted_rate": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
